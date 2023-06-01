@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style/calc.css">
+</head>
+<body>
+  <div class="calc">
+
+    <div class="b">
+      <input id="show" type="text" disabled>
+      <button class="o" onclick="clearEquation()">c</button>
+    </div>
+
+    <div class="ola">
+      <button id="cam" onclick="dis('+')">+</button>
+      <button onclick="dis('-')">-</button>
+      <button onclick="dis('*')">*</button>
+      <button onclick="dis('/')">/</button>
+    </div>
+
+    <div class="ola">
+      <button onclick="dis('1')">1</button>
+      <button onclick="dis('2')">2</button>
+      <button onclick="dis('3')">3</button>
+      <button onclick="dis('4')">4</button>
+    </div>
+
+    <div class="ola">
+      <button onclick="dis('5')">5</button>
+      <button onclick="dis('6')">6</button>
+      <button onclick="dis('7')">7</button>
+      <button onclick="dis('8')">8</button>
+    </div>
+
+    <div class="ola">
+      <button onclick="dis('9')">9</button>
+      <button onclick="dis('0')">0</button>
+      <button onclick="dis('.')">.</button>
+      <button onclick="eva()">=</button>
+    </div>
+
+  </div>
+
+  <script src="sripts/calc.js"></script>
+</body>
+</html>

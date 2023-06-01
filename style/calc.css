@@ -1,0 +1,34 @@
+.calc {
+    margin: auto;
+    width: 16%;
+    border-radius: 5px;
+    background-color: rgb(231, 197, 197);
+    padding: 30px;
+}
+
+.ola button {
+    padding: 19px 19px;
+    width: 23%;
+    height: 15px;
+}
+
+.o {
+    padding: 5px 10px;
+}
+
+.b {
+    padding-bottom: 10px;
+}
+
+.ola {
+    margin: auto;
+    margin-top: 5px;
+}
+
+input{
+    padding: 10px ;
+    height: 8px;
+    width: 70%;
+    background-color: white;
+    border: none;
+}
