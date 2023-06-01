@@ -3,7 +3,7 @@ function clearEquation() {
 }
 
 function dis(cam) {
-    document.getElementById("show").value += cam;
+    document.getElementById("show").value  += cam;
 }
 
 function eva() {

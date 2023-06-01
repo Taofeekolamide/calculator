@@ -1,6 +1,7 @@
 .calc {
     margin: auto;
-    width: 16%;
+    width: 50%;
+    min-width: 20%;
     border-radius: 5px;
     background-color: rgb(231, 197, 197);
     padding: 30px;
